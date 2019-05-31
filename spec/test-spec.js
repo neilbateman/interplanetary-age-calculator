@@ -1,3 +1,20 @@
+import { SpaceAge } from './../src/spaceage.js';
+
+describe('SpaceAge', function(){
+
+  it('should return number of years', function(){
+    const age = new SpaceAge("1992-12-20")
+    expect(age.earthAge).toEqual(26.444);
+  });
+});
+
+
+
+
+
+
+
+
 // import { Game } from './../src/rpg.js';
 //
 // describe('Game', function() {
