@@ -22,8 +22,13 @@ export class SpaceAge {
   }
 
   earthDeath(){
+    if (100 - this.earthAge > 0) {
     return (100 - this.earthAge).toPrecision(2) * 1;
+  } else {
+    const oldAge = (-1 * (100 - this.earthAge)).toPrecision(1);
+    return (`Wow, you have made it ${oldAge} past the expected lifespan!`);
   }
+}
   mercuryDeath(){
     return ((100 - this.earthAge)/.24).toPrecision(2) * 1;
   }

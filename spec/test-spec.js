@@ -47,4 +47,9 @@ describe('SpaceAge', function(){
     const age = new SpaceAge("1992-12-20")
     expect(age.jupiterDeath()).toEqual(6.2);
   });
+
+  it('should return the number of years they have lived past the life expectancy', function(){
+    const age = new SpaceAge("1910-12-20")
+    expect(age.earthDeath()).toEqual(`Wow, you have made it 10 past the expected lifespan!`);
+  });
 });
