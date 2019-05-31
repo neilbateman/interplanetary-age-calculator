@@ -3,12 +3,12 @@ import { SpaceAge } from './../src/spaceage.js';
 describe('SpaceAge', function(){
 
   it('should return number of years', function(){
-    const age = new SpaceAge("1992-12-20")
+    const age = new SpaceAge("1992-12-20");
     expect(age.earthAge).toEqual(26);
   });
 
   it('should convert earth years to mercury years', function(){
-    const age = new SpaceAge("1992-12-20")
+    const age = new SpaceAge("1992-12-20");
     expect(age.mercuryAge()).toEqual(110);
   });
 
@@ -50,6 +50,6 @@ describe('SpaceAge', function(){
 
   it('should return the number of years they have lived past the life expectancy', function(){
     const age = new SpaceAge("1910-12-20")
-    expect(age.earthDeath()).toEqual(`Wow, you have made it 1e+1 past the expected lifespan!`);
+    expect(age.earthDeath()).toEqual(`Wow, you have made it 10 past the expected lifespan!`);
   });
 });
