@@ -6,6 +6,11 @@ describe('SpaceAge', function(){
     const age = new SpaceAge("1992-12-20")
     expect(age.earthAge).toEqual(26.444);
   });
+
+  it('should convert earth years to mercury years', function(){
+    const age = new SpaceAge("1992-12-20")
+    expect(age.mercuryAge()).toEqual(109.73);
+  });
 });
 
 
