@@ -8,4 +8,16 @@ export class SpaceAge {
   mercuryAge(){
     return ((this.earthAge/.241)).toPrecision(5) * 1;
   }
+
+  venusAge(){
+    return ((this.earthAge/.615)).toPrecision(5) * 1;
+  }
+
+  marsAge(){
+    return ((this.earthAge/1.881)).toPrecision(5) * 1;
+  }
+
+  jupiterAge(){
+    return ((this.earthAge/11.86)).toPrecision(5) * 1;
+  }
 }
