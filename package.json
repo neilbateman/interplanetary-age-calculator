@@ -1,0 +1,19 @@
+{
+  "name": "interplanetary-age-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neilbateman/interplanetary-age-calculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neilbateman/interplanetary-age-calculator/issues"
+  },
+  "homepage": "https://github.com/neilbateman/interplanetary-age-calculator#readme"
+}
