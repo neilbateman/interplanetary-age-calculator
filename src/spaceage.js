@@ -24,4 +24,7 @@ export class SpaceAge {
   earthDeath(){
     return (100 - this.earthAge).toPrecision(2) * 1;
   }
+  mercuryDeath(){
+    return ((100 - this.earthAge)/.24).toPrecision(2) * 1;
+  }
 }

@@ -26,9 +26,25 @@ describe('SpaceAge', function(){
     const age = new SpaceAge("1992-12-20")
     expect(age.jupiterAge()).toEqual(2.2);
   });
-
   it('should calculate remaining years on earth', function(){
     const age = new SpaceAge("1992-12-20")
     expect(age.earthDeath()).toEqual(74);
   });
+
+  it('should calculate remaining years on mercury', function(){
+    const age = new SpaceAge("1992-12-20")
+    expect(age.mercuryDeath()).toEqual(310);
+  });
+  // it('should calculate remaining years on venus', function(){
+  //   const age = new SpaceAge("1992-12-20")
+  //   expect(age.earthDeath()).toEqual(74);
+  // });
+  // it('should calculate remaining years on mars', function(){
+  //   const age = new SpaceAge("1992-12-20")
+  //   expect(age.earthDeath()).toEqual(74);
+  // });
+  // it('should calculate remaining years on jupiter', function(){
+  //   const age = new SpaceAge("1992-12-20")
+  //   expect(age.earthDeath()).toEqual(74);
+  // });
 });
