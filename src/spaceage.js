@@ -27,4 +27,13 @@ export class SpaceAge {
   mercuryDeath(){
     return ((100 - this.earthAge)/.24).toPrecision(2) * 1;
   }
+  venusDeath(){
+    return ((100 - this.earthAge)/.62).toPrecision(2) * 1;
+  }
+  marsDeath(){
+    return ((100 - this.earthAge)/1.88).toPrecision(2) * 1;
+  }
+  jupiterDeath(){
+    return ((100 - this.earthAge)/11.86).toPrecision(2) * 1;
+  }
 }
