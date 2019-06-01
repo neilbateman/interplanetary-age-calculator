@@ -2,7 +2,6 @@ export class SpaceAge {
   constructor(age) {
     this.age = age;
     this.earthAge = (((Date.now() - (new Date(age).getTime())) / 31557600000).toPrecision(2) * 1);
-    this.relativeAge = [["Mercury",0.24],["Venus",0.62],["Mars",1.88],["Jupiter",11.86]];
   }
 
   mercuryAge(){
