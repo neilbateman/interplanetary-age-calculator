@@ -19,7 +19,6 @@ Specs
 | **Earth age to age in Venus years** | 12/20/1992 | 42 Venus years old |
 | **Earth age to age in Mars years** | 12/20/1992 | 14 Mars years old |
 | **Earth age to age in Jupiter years** | 12/20/1992 | 2.2 Jupiter years old |
-| **Determine users remaining years in Earth years** | 12/20/1992 | 74 Earth years remaining, 240.42 Mercury years remaining, etc. |
 | **Program congratulates the user on living past expected lifespan** | 12/20/1910 | Wow, you have made it 10 years past the expected lifespan! |
 
 ## Technologies Used
