@@ -19,7 +19,7 @@ Specs
 | **Earth age to age in Venus years** | 12/20/1992 | 42 Venus years old |
 | **Earth age to age in Mars years** | 12/20/1992 | 14 Mars years old |
 | **Earth age to age in Jupiter years** | 12/20/1992 | 2.2 Jupiter years old |
-| **Program congratulates the user on living past expected lifespan** | 12/20/1910 | Wow, you have made it 10 years past the expected lifespan! |
+| **If users age is beyond expected lifespan, program provides personalized message** | 12/20/1910 | Wow, you have made it 10 years past the expected lifespan! |
 
 ## Technologies Used
 
