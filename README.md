@@ -2,14 +2,15 @@
 
 #### By **Neil Bateman**
 
-### Installation / Usage
-* _Clone this repository to your machine, and run 'npm install' thru terminal._
-* _Test functionality only: run 'npm test'._
-
 ### Description
 * _A program that calculates user's inputted age to their age on another planet in our solar system._
 
-1. Specs
+### Setup/Installation Requirements
+* _Clone repository and run 'npm install' thru terminal._
+* _Test functionality only: run 'npm test'._
+
+
+Specs
 
   | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
