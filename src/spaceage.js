@@ -26,7 +26,7 @@ export class SpaceAge {
     return (100 - this.earthAge).toPrecision(2) * 1;
   } else {
     const oldAge = (-1 * (100 - this.earthAge)).toPrecision(1) * 1;
-    return (`Wow, you have made it ${oldAge} past the expected lifespan!`);
+    return (`Wow, you have made it ${oldAge} years past the expected lifespan!`);
   }
 }
   mercuryDeath(){
