@@ -1,11 +1,16 @@
 export class SpaceAge {
   constructor(age) {
+    this.year = year;
+    this.month = month;
+    this.day = day;
     this.age = age;
     this.earthAge = (((Date.now() - (new Date(age).getTime())) / 31557600000).toPrecision(2) * 1);
   }
 
   mercuryAge(){
-    return ((this.earthAge/.24)).toPrecision(2) * 1;
+    let string = `<p>${planetAge}</p>`;
+    let planetAge = ((this.earthAge/.24)).toPrecision(2) * 1;
+    return string;
   }
 
   venusAge(){
